@@ -58,8 +58,14 @@ Use the ** Feature Extraction.ipynb **to create a CSV file containing feature ve
 
 ## **Module 2: Feature Selection and Model Building**
 
-In this module, we trained a LightGBM classifier using K-Fold cross-validation to ensure robust evaluation across different data splits.  In addition, we analysed and identified significant permission pairs that contribute to app behaviour, which were used as important features for classification. The best-performing model (highest accuracy) was then saved for future use, ensuring reproducibility and efficiency. LightGBM offers a better trade-off between accuracy and model complexity on the combined dataset, making it a suitable choice for this task.
+In this module, we trained a LightGBM classifier using K-Fold cross-validation to ensure robust evaluation across different data splits.  In addition, we analysed and identified significant permission pairs that contribute to app behaviour, which are used as important features for classification. The best-performing model (highest accuracy) was then saved for future use. LightGBM offers a better trade-off between accuracy and model complexity on the combined dataset, making it a suitable choice for this task.
 
-Use can use the **permpair_cross_validation.ipynb** to check model performance with other models, and **permpair_cross_validation.ipynb** for significant feature selection.
+Use the **permpair_cross_validation.ipynb** to check model performance with other models, and **permpair_cross_validation.ipynb** for significant feature selection.
+
+## **Module 3: Risk Score Evaluation**
+
+In this module, SHAP values are used to assign weights to the selected features. Based on these weights, risk scores are calculated for each permission pair, and the results are stored in a risk score database for later use.
+
+Use **significant feature selection_ risk score calculation.ipynb** to find the risk scores for significant permission pairs.
 
 
