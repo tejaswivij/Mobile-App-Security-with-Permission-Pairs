@@ -22,6 +22,10 @@ Jupyter Notebook for .ipynb files
 
 ##**Datasets**
 
+CICMalDroid dataset source: https://www.unb.ca/cic/datasets/maldroid-2020.html
+
+Drebin dataset source: https://www.kaggle.com/datasets/likhithadurusoju/drebindataset
+
 ## **Module 1: Feature Extraction**
 
 In this module, we collect .apk files from AndroZoo and extract permissions from the AndroidManifest.xml file of each app.
