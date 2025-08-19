@@ -15,3 +15,35 @@ AndroZoo account for accessing APKs
 Python 3.0+
 
 Jupyter Notebook for .ipynb files
+
+## **Module 1: Feature Extraction**
+
+In this module, we collect .apk files from AndroZoo and extracts permissions from the AndroidManifest.xml file of each app.
+
+Next, generate a feature vector representing app behaviour.
+
+### **Collecting APK Files from AndroZoo**
+
+AndroZoo is a growing collection of millions of Android applications collected from various sources (e.g., Google Play, APKPure, etc.). You can download APK files for research purposes after getting access.
+
+**Step 1: Request Access**
+
+Visit the AndroZoo access page.
+
+Fill in the request form with:
+
+Your name and institutional affiliation.
+
+Research purpose (must be academic/research use only).
+
+Once approved, you will receive an API key via email.
+
+**Step 2: Get the APK List**
+
+AndroZoo provides a metadata file (androzoo.csv) that contains information about all available apps:
+
+SHA256 hash, Package name, App markets (e.g., Google Play), Version, size, and more
+
+**Step 3: Download APKs**
+
+Use your API key and the app’s SHA256 hash to download APKs by following the procedure given in  "https://androzoo.uni.lu/api_doc"
