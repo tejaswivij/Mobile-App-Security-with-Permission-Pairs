@@ -55,3 +55,11 @@ Use your API key and the app’s SHA256 hash to download APKs by following the p
 **Step 4: Creating feature vector from .apk files**
 
 Use the ** Feature Extraction.ipynb **to create a CSV file containing feature vectors of all apps.
+
+## **Module 2: Feature Selection and Model Building**
+
+In this module, we trained a LightGBM classifier using K-Fold cross-validation to ensure robust evaluation across different data splits.  In addition, we analysed and identified significant permission pairs that contribute to app behaviour, which were used as important features for classification. The best-performing model (highest accuracy) was then saved for future use, ensuring reproducibility and efficiency. LightGBM offers a better trade-off between accuracy and model complexity on the combined dataset, making it a suitable choice for this task.
+
+Use can use the **permpair_cross_validation.ipynb** to check model performance with other models, and **permpair_cross_validation.ipynb** for significant feature selection.
+
+
