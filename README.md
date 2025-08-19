@@ -1,6 +1,7 @@
 # Security assessment of Android mobile applications based on Permission Pairs
 This repo contains an official Python implementation of our paper: Recommender System for Secure Mobile Application based on Permission Pairs using Explainable Artificial Intelligence
  ![Image Alt](https://github.com/tejaswivij/Mobile-App-Security-with-Permission-Pairs/blob/main/framework.jpg?raw=true)
+ 
 The figure above illustrates the overall workflow of our proposed system. In this system, permission pairs of apps are treated as features. The system comprises four modules: (i) feature extraction, (ii) feature selection and model building, (iii) evaluation of risk scores for permission pairs, and (iv) the recommendation module. The first three modules act as preliminary steps to obtain relevant inputs that influence the final recommendation.
 
 ## **Prerequisites: **
