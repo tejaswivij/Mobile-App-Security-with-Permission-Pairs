@@ -54,7 +54,7 @@ Use your API key and the app’s SHA256 hash to download APKs by following the p
 
 **Step 4: Creating feature vector from .apk files**
 
-Use the ** Feature Extraction.ipynb **to create a CSV file containing feature vectors of all apps.
+Use the **Feature Extraction.ipynb**to create a CSV file containing feature vectors of all apps.
 
 ## **Module 2: Feature Selection and Model Building**
 
@@ -80,10 +80,8 @@ Step 4: For a given app category, the trained LGBM classifier labels apps as ben
 
 For benign apps:
 
-Computes a total risk score using the Module 3 database.
+Computes a total risk score using the Module 3 database. Ranks apps based on risk score. Recommends the top r safest apps in the same category.
 
-Ranks apps based on risk score.
-
-Recommends the top r safest apps in the same category.
+For implementation, use **Module4_App_Recommendation.ipynb**. 
 
 
