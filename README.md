@@ -68,4 +68,22 @@ In this module, SHAP values are used to assign weights to the selected features.
 
 Use **significant feature selection_ risk score calculation.ipynb** to find the risk scores for significant permission pairs.
 
+## **Module 4: App Recommendation**
+
+Step 1: Collect the IDs and names of apps from the **Google Play Store** for a particular category of apps
+
+Step 2: Collect .apk files of the app from APKPure (https://apkpure.com/), a well-established third-party app marketplace that provides verified .apk files for both the latest and older versions of Android applications.
+
+Step 3: Use **Feature Extraction.ipynb** to create a CSV file containing feature vectors of all apps.
+
+Step 4: For a given app category, the trained LGBM classifier labels apps as benign or malware.
+
+For benign apps:
+
+Computes a total risk score using the Module 3 database.
+
+Ranks apps based on risk score.
+
+Recommends the top r safest apps in the same category.
+
 
